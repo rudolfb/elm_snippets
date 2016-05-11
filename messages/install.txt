@@ -5,10 +5,10 @@ Type the snippet shortcode and then press Tab to complete the snippet.
 The snippets are listed below in alphabetical order. The '$1' indicates the position of the caret/s. Some snippets have been set up so that pressing Tab jumps the caret/s to the next predefined spot. Any snippet that has a $1/$2/$3/etc. uses this technique.
 
 For complete documentation please visit:
-  https://github.com/rudolfb/elm-snippets
+  https://github.com/rudolfb/elm_snippets
 
 Bug reports:
-  https://github.com/rudolfb/elm-snippets/issues
+  https://github.com/rudolfb/elm_snippets/issues
 
 Use these snippets as you please. I only ask that if you come up with an incredibly handy snippet, or simply one that I have missed, that you let me know via GitHub so that I can improve these for everybody. Thanks!
 
@@ -57,6 +57,17 @@ import $1 exposing (..)
 
 
 import Html exposing (..)
+
+
+---
+
+impes
+
+
+import $1 exposing ($2)
+
+
+import Html exposing (Html)
 
 
 ---
