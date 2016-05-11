@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Signal.Signal ]]></content>
+	<tabTrigger>sigs</tabTrigger>
+	<description>ELM - Signal.Signal</description>
+	<scope>source.elm</scope>
+</snippet>

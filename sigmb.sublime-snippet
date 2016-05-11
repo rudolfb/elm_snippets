@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Signal.mailbox ""]]></content>
+	<tabTrigger>sigmb</tabTrigger>
+	<description>ELM - Signal.mailbox ""</description>
+	<scope>source.elm</scope>
+</snippet>

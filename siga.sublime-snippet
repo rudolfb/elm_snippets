@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Signal.Address ]]></content>
+	<tabTrigger>siga</tabTrigger>
+	<description>ELM - Signal.Address</description>
+	<scope>source.elm</scope>
+</snippet>

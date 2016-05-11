@@ -1,0 +1,145 @@
+Elm snippets for Sublime Text 2 and 3
+
+Type the snippet shortcode and then press Tab to complete the snippet.
+
+The snippets are listed below in alphabetical order. The '$1' indicates the position of the caret/s. Some snippets have been set up so that pressing Tab jumps the caret/s to the next predefined spot. Any snippet that has a $1/$2/$3/etc. uses this technique.
+
+For complete documentation please visit:
+  https://github.com/rudolfb/elm-snippets
+
+Bug reports:
+  https://github.com/rudolfb/elm-snippets/issues
+
+Use these snippets as you please. I only ask that if you come up with an incredibly handy snippet, or simply one that I have missed, that you let me know via GitHub so that I can improve these for everybody. Thanks!
+
+* * Snippets * *
+
+cof
+
+case $1 of
+	$2 ->
+		$3
+
+
+case action of
+	Increase ->
+		{ model | count = model.count + 1 }
+ 
+
+---
+
+imp
+
+
+import $1
+
+
+import Mouse
+
+
+---
+
+impas
+
+
+import $1 as $2
+
+
+import Html.Events as Events
+
+
+---
+
+impea
+
+
+import $1 exposing (..)
+
+
+import Html exposing (..)
+
+
+---
+
+mod
+
+
+module $1 (..) where
+$0
+
+
+Pressing Tab after entering the module name will automatically position the cursor on the start of the next line.
+
+
+module Main (..) where
+
+
+---
+
+sig
+
+
+Signal
+
+
+---
+
+siga
+
+
+Signal.Address 
+
+
+A space is automatically appended to the string and the cursor placed after the trailing space.
+
+---
+
+sigma
+
+
+Signal.map ($1) $2
+
+
+Signal.map (view mb.address) modelSignal
+
+
+---
+
+sigmb
+
+
+Signal.mailbox ""
+
+
+---
+
+sigs
+
+
+Signal.Signal
+
+
+---
+
+str
+
+
+String
+
+
+---
+
+ta
+
+
+type alias $1 =
+	$2
+$0
+
+
+Pressing Tab after entering the alias name will automatically position the cursor indented on the next line, and you can enter the alias definition.
+Pressing Tab after entering the alias definition will automatically position the cursor on the start of the next line.
+
+
+type alias Model =
+  { count : Int }

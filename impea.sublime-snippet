@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[import $1 exposing (..)]]></content>
+	<tabTrigger>impea</tabTrigger>
+	<description>ELM - import &lt;name&gt; exposing (..)</description>
+	<scope>source.elm</scope>
+</snippet>

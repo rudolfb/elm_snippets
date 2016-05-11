@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[type alias $1 =
+	$2
+$0
+]]></content>
+	<tabTrigger>ta</tabTrigger>
+	<description>ELM - type alias &lt;name&gt; = &lt;something&gt;</description>
+	<scope>source.elm</scope>
+</snippet>

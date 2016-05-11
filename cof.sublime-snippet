@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[case $1 of
+	$2 ->
+		$3]]></content>
+	<tabTrigger>cof</tabTrigger>
+	<description>ELM - case &lt;something&gt; of &lt;Condition&gt; -&gt; &lt;action&gt;</description>
+	<scope>source.elm</scope>
+</snippet>
