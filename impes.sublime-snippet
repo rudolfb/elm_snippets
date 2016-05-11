@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[import $1 exposing ($2)
+]]></content>
+	<tabTrigger>impes</tabTrigger>
+	<description>ELM - import &lt;name&gt; exposing (&lt;something&gt;)</description>
+	<scope>source.elm</scope>
+</snippet>

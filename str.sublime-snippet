@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[String]]></content>
+	<content><![CDATA[String ]]></content>
 	<tabTrigger>str</tabTrigger>
 	<description>ELM - String</description>
 	<scope>source.elm</scope>

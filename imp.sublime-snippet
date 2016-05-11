@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[import $1]]></content>
+	<content><![CDATA[import $1
+]]></content>
 	<tabTrigger>imp</tabTrigger>
 	<description>ELM - import &lt;name&gt;</description>
 	<scope>source.elm</scope>
