@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[module $1 (..) where
+	<content><![CDATA[module $1 exposing (..)
 
 $0
 ]]></content>
 	<tabTrigger>mod</tabTrigger>
-	<description>ELM - module &lt;name&gt; (..) where</description>
+	<description>ELM - module &lt;name&gt; exposing (..)</description>
 	<scope>source.elm</scope>
 </snippet>
