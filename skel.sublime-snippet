@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[import Html exposing (..)
+
+
+-- MODEL
+
+type alias Model =
+	{
+		$0
+	}
+
+
+-- UPDATE
+
+type Msg =
+	Reset
+	| ...
+
+update : Msg -> Model -> Model
+update msg model =
+	case msg of
+		Reset ->
+			...
+
+
+-- VIEW
+
+view : Model -> Html Msg
+view model =
+	...
+]]></content>
+	<tabTrigger>skel</tabTrigger>
+	<description>ELM - Skeleton simple</description>
+	<scope>source.elm</scope>
+</snippet>
+
+
+
