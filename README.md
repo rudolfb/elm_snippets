@@ -8,13 +8,13 @@ This is a Sublime Text 2 and 3 plugin allowing you to use Elm specific snippets 
 First of all, be sure you have [Elm](http://elm-lang.org/install) installed. Other useful Elm related packages are "Elm Language Support" and "SublimeLinter-contrib-elm-make". After you've installed Elm and the Elm related packages, you will need to setup this plugin.
 Each OS has a different `Packages` folder required by Sublime Text. Open it via Preferences -> Browse Packages, and copy this repository contents to the `elm_snippets` folder there.
 
-~~The shorter way of doing this is:~~
+The shorter way of doing this is:
 
-### ~~Through [Sublime Package Manager](http://wbond.net/sublime_packages/package_control)~~
+### Through [Sublime Package Manager](http://wbond.net/sublime_packages/package_control)
 
-* ~~`Ctrl+Shift+P` or `Cmd+Shift+P` in Linux/Windows/OS X~~
-* ~~type `install`, select `Package Control: Install Package`~~
-* ~~type `elm_snippets`, select `elm_snippets`~~
+* `Ctrl+Shift+P` or `Cmd+Shift+P` in Linux/Windows/OS X
+* type `install`, select `Package Control: Install Package`
+* type `elm_snippets`, select `elm_snippets`
 
 ### Manually
 Make sure you use the right Sublime Text folder. For example, on OS X, packages for version 2 are in `~/Library/Application\ Support/Sublime\ Text\ 2`, while version 3 is labeled `~/Library/Application\ Support/Sublime\ Text\ 3`.
