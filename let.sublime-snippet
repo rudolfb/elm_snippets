@@ -2,8 +2,8 @@
 	<content><![CDATA[let
 	$1 =
 		$2
-	in
-		$3]]></content>
+in
+	3]]></content>
 	<tabTrigger>let</tabTrigger>
 	<description>ELM - let &lt;variable&gt; = &lt;value&gt; in &lt;action&gt;</description>
 	<scope>source.elm</scope>
