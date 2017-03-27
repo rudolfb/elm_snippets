@@ -147,10 +147,30 @@ type alias $1 =
 	$2
 $0
 
-
 Pressing Tab after entering the alias name will automatically position the cursor indented on the next line, and you can enter the alias definition.
 Pressing Tab after entering the alias definition will automatically position the cursor on the start of the next line.
 
 
 type alias Model =
-  { count : Int }
+	{ count : Int }
+
+---
+
+type
+
+
+type $1
+	= $2
+$0
+
+
+---
+
+let
+
+
+let
+	$1 =
+		$2
+in
+	$3

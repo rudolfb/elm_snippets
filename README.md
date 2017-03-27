@@ -155,6 +155,24 @@ type alias $1 =
 $0
 ```
 
+__type__
+
+```elm
+type $1
+	= $2
+$0
+```
+
+__let__
+
+```elm
+let
+	$1 =
+		$2
+in
+	$3
+```
+
 Pressing <kbd>Tab</kbd> after entering the alias name will automatically position the cursor indented on the next line, and you can enter the alias definition.
 Pressing <kbd>Tab</kbd> after entering the alias definition will automatically position the cursor on the start of the next line.
 
